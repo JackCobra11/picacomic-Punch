@@ -39,7 +39,7 @@ namespace picacomic
                         jd = JObject.Parse(msg);
                         if ((int)jd["code"] == 200 && jd["data"] != null)
                         {
-                            Log("签到完成");
+                            Log("签到 完成");
                         }
                     }
                 }
